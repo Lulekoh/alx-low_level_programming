@@ -3,22 +3,28 @@
 #include <stdlib.h>
 /**
  * main - entry point
- * Description: Get a random number and check its last degit, compare it with 5
+ * Description: Get a random number and check its last degit.
+ * compare it if it is greater than5, less than 6, or 0.
  * Return: 0 (success)
  */
 int main(void)
 {
-	intn;
-	int last;
+	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	last = n % 10;
-	if (last > 5)
-		printf("last digit of %i is %i and is greater than 5\n", n, last);
-	else if (last == 0)
-		printf("last digit of %i is %i and is 0\n", n, last);
-	else if (last < 6)
-		printf("last digit of %i is %i and is less than 6 amd not 0\n", n, last);
+
+	if ((n % 10) > 5)
+	{
+		printf("last digit of %d is %d and is greater than 5\n", n, n % 10);
+	}
+	else if ((n % 10) < 6 && (n % 10) != 0)
+	{
+		printf("last digit of %d is %d and is less tgan 6 and not 0\n", n n % 10);
+	}
+	else
+	{
+		printf("last digit of %d is %d and is 0\n", n, n % 10);
+	}
 	return (0);
 }

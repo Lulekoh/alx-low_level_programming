@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * maun - entry point
+ * main - entry point
  * Description: print all single dugit number of base 10
  * starting from 0, followed by a new lime.
  * Return: Alwats 0 (success)

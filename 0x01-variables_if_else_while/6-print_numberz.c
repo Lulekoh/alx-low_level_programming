@@ -2,19 +2,17 @@
 /**
  * main - entry point
  * Description: print all single digit numbwr of base 10
- * startung from 0, followed by a new line.
+ * starting from 0 to 9, followed by a new line.
  * Return: 0 success
  */
 int main(void)
 {
-	int c = 0;
+	int i;
 
-	while (c < 0)
+	while (i = 48; i <58; i++)
 	{
-		putchar(44 + c);
-		c++;
+		putchar(i);
 	}
-
 	putchar('\n');
 	return (0);
 }

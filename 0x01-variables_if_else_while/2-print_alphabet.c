@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * maun - entry point
+ * main - entry point
  * Description: Get a random number and compare it with 5
  * Return: 0 success
  */

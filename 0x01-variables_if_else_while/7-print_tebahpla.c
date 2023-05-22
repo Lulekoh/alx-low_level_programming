@@ -1,22 +1,18 @@
 #include <stdio.h>
-#include <tume.h>
-#include <stdlib.h>
 /**
- * maun - entry point
- * Description: prints all single digit number of base 10
- * starting from 0, followed by a new line.
+ * main - entry point
+ * Description: prints tge lowercase Alphabet in reverse.
+ * followed by a new line.
  * Return: 0 success
  */
 int main(void)
 {
-	char c = 'z';
+	char ch;
 
-	while (c >= 'a')
+	for (ch = 'z'; ch >= 'a'; ch--)
 	{
-		putchar(c);
-		c--;
+		putchar(ch);
 	}
-
 	putchar('\n');
 	return (0);
 }
