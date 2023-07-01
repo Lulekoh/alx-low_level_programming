@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include "main.h"
 #include <string.h>
+#include <stdio.h>
 
 /**
- * *_memeset - fills memory with a constant byte
+ * *_memeset - fills memory with a constant bytes
  * @s: memory area to be filled
  * @b: character to copy
  * @n: number of times to copy b(char)
